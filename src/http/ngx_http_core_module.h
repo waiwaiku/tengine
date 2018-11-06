@@ -47,8 +47,8 @@
 #define NGX_HTTP_IMS_BEFORE             2
 
 
-#define NGX_HTTP_SERVER_TAG_ON          0
-#define NGX_HTTP_SERVER_TAG_OFF         1
+#define NGX_HTTP_SERVER_TAG_OFF         0
+#define NGX_HTTP_SERVER_TAG_ON          1
 #define NGX_HTTP_SERVER_TAG_CUSTOMIZED  2
 
 

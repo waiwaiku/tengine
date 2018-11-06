@@ -4084,7 +4084,7 @@ ngx_http_core_merge_loc_conf(ngx_conf_t *cf, void *parent, void *child)
                               prev->default_type, "text/plain");
 
     ngx_conf_merge_uint_value(conf->server_tag_type, prev->server_tag_type,
-                              NGX_HTTP_SERVER_TAG_ON);
+                              NGX_HTTP_SERVER_TAG_OFF);
     ngx_conf_merge_str_value(conf->server_tag, prev->server_tag, "");
     ngx_conf_merge_str_value(conf->server_tag_header,
                              prev->server_tag_header, "");
